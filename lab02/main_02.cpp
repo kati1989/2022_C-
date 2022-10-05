@@ -30,7 +30,7 @@ cout<<endl;
     if(negyzete==0){
         cout<<"No square";
 
-    } else cout<<"Yes square";
+    } else cout<<"Yes square.txt";
 
     testIsSquare("points");
     /* Point p1(2,3);
@@ -44,6 +44,8 @@ cout<<endl;
     delete pp1;
     delete pp2;
     return 0;*/
+
+
 }
 
 
