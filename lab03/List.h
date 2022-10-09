@@ -40,7 +40,7 @@ to remove. The enum values are accessed with List::DeleteFlag::LESS,
         LESS, EQUAL, GREATER
     };
 
-//    void remove(int d, DeleteFlag df = DeleteFlag::EQUAL);
+    void remove(int d, DeleteFlag df = DeleteFlag::EQUAL);
 //
 ///* prints the contents of this list */
   void print() const;

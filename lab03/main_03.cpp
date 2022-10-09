@@ -13,6 +13,7 @@ int main() {
     List list2=list1;
 
     cout<<"list2"<<endl;
+    list2.remove(7);
     list2.print();
 
     cout <<"Exists:"<<list1.exists(1)<<endl;
@@ -20,7 +21,11 @@ int main() {
     cout<<"Size:"<<list1.size()<<endl;
 
     cout<<"Empty:"<<list2.empty()<<endl;
+    cout<<"after remove";
+    list1.print();
 
+
+    list1.print();
     return 0;
 
 }
