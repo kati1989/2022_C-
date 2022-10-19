@@ -7,6 +7,7 @@ int main() {
   m1.printMatrix();
   cout<<"Random  szamokkal feltoltve a  matrix"<<endl;
   m1.randomMatrix(2,15);
+  //
 
     return 0;
 }
