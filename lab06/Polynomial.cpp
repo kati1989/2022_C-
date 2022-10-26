@@ -47,3 +47,4 @@ double Polynomial::evaluate(double x) const {
     return  p;
 
 }
+/**/
