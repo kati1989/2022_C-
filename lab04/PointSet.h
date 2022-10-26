@@ -6,6 +6,8 @@
 #define CPP_2022_POINTSET_H
 
 #include "Point.h"
+#include <vector>
+using namespace std;
 
 class PointSet{
 //különböző pontok
@@ -15,12 +17,13 @@ class PointSet{
 //pontok kozotti tavolsagok
     vector<double> distances;
 //segédfüggvény, amely feltölti a distances tömböt
-    void computeDistances();
+   // void computeDistances();
 public:
 //konstruktor: előállítja a points tömböt
 //kiszámítja a pontok közötti távolságokat (tavolsagok tömb),
+
+   // PointSet( int n = 100 );
 /*
-    PointSet( int n = 100 );
 //maximum kiválasztás a tavolsag tömbből
     double maxDistance() const;
 //minimum kiválasztás a tavolsag tömbből
@@ -40,7 +43,8 @@ public:
     void sortDistances();
 //hány darab különböző távolságot tartalmaz a tavolsagok tömb
     int numDistinctDistances();
+    */
 };
 
-*/
+
 #endif //CPP_2022_POINTSET_H

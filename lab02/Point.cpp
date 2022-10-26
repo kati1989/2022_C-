@@ -5,9 +5,11 @@
 #include <iostream>
 #include <fstream>
 #include "Point.h"
-#include "math.h"
+#include <cmath>
 
 using namespace  std;
+
+
 
 Point::Point(int x, int y) {
     if (x >= 0 && x <= 2000 && y >= 0 && y <= 2000){
