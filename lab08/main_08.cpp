@@ -68,6 +68,6 @@ int main() {
 
 
     cout << "6 -os feladat";
-    vector<pair<string,double>>{{"januar",2.5},{"februar",-2.7},{"marcius","16"}};
+   // vector<pair<string,double>>{{"januar",2.5},{"februar",-2.7},{"marcius","16"}};
     return 0;
 }
