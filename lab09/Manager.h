@@ -9,12 +9,19 @@
 #include "Alkalmazott.h"
 #include<vector>
 
-class Manager : public  Alkalmazott{
+class Manager : public Alkalmazott {
     vector<Alkalmazott*> beosztottak;
 public:
 
-    Manager( string vezetekNev,  string keresztnev, int szuletesiEv, string munkakor);
-    void addAlkalmazott(Alkalmazott*);
+    Manager(string vezetekNev, string keresztnev, int szuletesiEv, string munkakor);
+
+    void addAlkalmazott(Alkalmazott *);
+
+    void deleteAlkalmazott(Alkalmazott *);
+
+    int beosztottakSzama() const;
+
+    virtual void print(ostream &os = cout) const;
 
 };
 
